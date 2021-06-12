@@ -1,0 +1,16 @@
+C:\Users\Display\Desktop\lab121\PROYECTO\FINAL\ViverosAreasVerdes\ViverosAreasVerdes\bin\Debug\ViverosAreasVerdes.exe.config
+C:\Users\Display\Desktop\lab121\PROYECTO\FINAL\ViverosAreasVerdes\ViverosAreasVerdes\bin\Debug\ViverosAreasVerdes.exe
+C:\Users\Display\Desktop\lab121\PROYECTO\FINAL\ViverosAreasVerdes\ViverosAreasVerdes\bin\Debug\ViverosAreasVerdes.pdb
+C:\Users\Display\Desktop\lab121\PROYECTO\FINAL\ViverosAreasVerdes\ViverosAreasVerdes\obj\Debug\ViverosAreasVerdes.Form1.resources
+C:\Users\Display\Desktop\lab121\PROYECTO\FINAL\ViverosAreasVerdes\ViverosAreasVerdes\obj\Debug\ViverosAreasVerdes.Properties.Resources.resources
+C:\Users\Display\Desktop\lab121\PROYECTO\FINAL\ViverosAreasVerdes\ViverosAreasVerdes\obj\Debug\ViverosAreasVerdes.csproj.GenerateResource.cache
+C:\Users\Display\Desktop\lab121\PROYECTO\FINAL\ViverosAreasVerdes\ViverosAreasVerdes\obj\Debug\ViverosAreasVerdes.csproj.CoreCompileInputs.cache
+C:\Users\Display\Desktop\lab121\PROYECTO\FINAL\ViverosAreasVerdes\ViverosAreasVerdes\obj\Debug\ViverosAreasVerdes.exe
+C:\Users\Display\Desktop\lab121\PROYECTO\FINAL\ViverosAreasVerdes\ViverosAreasVerdes\obj\Debug\ViverosAreasVerdes.pdb
+C:\Users\Display\Desktop\lab121\PROYECTO\FINAL\ViverosAreasVerdes\ViverosAreasVerdes\obj\Debug\ViverosAreasVerdes.Resources.Informacion.resources
+C:\Users\Display\Desktop\lab121\PROYECTO\FINAL\ViverosAreasVerdes\ViverosAreasVerdes\obj\Debug\ViverosAreasVerdes.csprojAssemblyReference.cache
+C:\Users\Display\Desktop\lab121\PROYECTO\FINAL\ViverosAreasVerdes\ViverosAreasVerdes\obj\Debug\ViverosAreasVerdes.CambiarDatosInfo.resources
+C:\Users\Display\Desktop\lab121\PROYECTO\FINAL\ViverosAreasVerdes\ViverosAreasVerdes\obj\Debug\ViverosAreasVerdes.Info.resources
+C:\Users\Display\Desktop\lab121\PROYECTO\FINAL\ViverosAreasVerdes\ViverosAreasVerdes\obj\Debug\ViverosAreasVerdes.FormViveros.resources
+C:\Users\Display\Desktop\lab121\PROYECTO\FINAL\ViverosAreasVerdes\ViverosAreasVerdes\obj\Debug\ViverosAreasVerdes.FormCambiarDatos.resources
+C:\Users\Display\Desktop\lab121\PROYECTO\FINAL\ViverosAreasVerdes\ViverosAreasVerdes\obj\Debug\ViverosAreasVerdes.FormMostrrarAlmaciguera.resources

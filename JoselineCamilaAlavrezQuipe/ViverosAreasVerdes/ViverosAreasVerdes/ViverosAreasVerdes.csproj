@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8550A6B9-48C5-49C4-95BB-F0833CD68716}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ViverosAreasVerdes</RootNamespace>
+    <AssemblyName>ViverosAreasVerdes</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Almaciguera.cs" />
+    <Compile Include="Arbol.cs" />
+    <Compile Include="ArchEmpVive.cs" />
+    <Compile Include="CamaDeRepique.cs" />
+    <Compile Include="CambiarDatosInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CambiarDatosInfo.Designer.cs">
+      <DependentUpon>CambiarDatosInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CambioDeBolsa.cs" />
+    <Compile Include="EmpresaMunicipal.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMostrarCamRepiq.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMostrarCamRepiq.Designer.cs">
+      <DependentUpon>FormMostrarCamRepiq.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMostrrarAlmaciguera.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMostrrarAlmaciguera.Designer.cs">
+      <DependentUpon>FormMostrrarAlmaciguera.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormViveros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormViveros.Designer.cs">
+      <DependentUpon>FormViveros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCambiarDatos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCambiarDatos.Designer.cs">
+      <DependentUpon>FormCambiarDatos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Info.Designer.cs">
+      <DependentUpon>Info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ornamental.cs" />
+    <Compile Include="Planta.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\Informacion.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Resources\Informacion.Designer.cs">
+      <DependentUpon>Informacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Riego.cs" />
+    <Compile Include="Semilla.cs" />
+    <Compile Include="Vivero.cs" />
+    <Compile Include="Xerofila.cs" />
+    <EmbeddedResource Include="CambiarDatosInfo.resx">
+      <DependentUpon>CambiarDatosInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMostrrarAlmaciguera.resx">
+      <DependentUpon>FormMostrrarAlmaciguera.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormViveros.resx">
+      <DependentUpon>FormViveros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCambiarDatos.resx">
+      <DependentUpon>FormCambiarDatos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Info.resx">
+      <DependentUpon>Info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Resources\Informacion.resx">
+      <DependentUpon>Informacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondos-plantas-verde-Favim.com-6047165.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plant.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconInf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconViver.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconPlant.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portadaInf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boton1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
